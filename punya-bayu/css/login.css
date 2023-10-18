@@ -1,0 +1,77 @@
+.login{
+    position: absolute;
+    left: 50%;
+    top:  50%;
+    transform: translate(-50%,-50%);
+    height: 500px;
+    width: 600px;
+    text-align: center;
+    background-color: #d9d9d957;
+    border: solid 3px;
+    box-shadow: 0 0 10px rgba(255, 255, 255, .3);
+    border-radius: 10px;
+    
+}
+
+.card {
+    position: relative;
+    display: inline-block;
+}
+.card img {
+    width:220px;
+    height: 200px;
+    
+}
+.card:hover img {
+    display: none;
+}
+.card .img-top {
+    display: none;
+    top: 0;
+    left: 0;
+    width: 220px;
+    height: 200px;
+}
+.card:hover .img-top {
+    display: inline;
+}
+
+input[type=email]{
+    padding: 1%;
+    width: 50%;
+    background-color: #ff8b8bb7;
+    border: none;
+    border-radius: 3px;
+}
+
+input[type=password]{
+    padding: 1%;
+    width: 50%;
+    background-color: #ff8b8bb7;
+    border: none;
+    border-radius: 3px;
+}
+
+.masuk {
+    position: absolute;
+    left: 65%;
+    top:  50%;
+    transform: translate(-50%,-50%);
+    padding: 10px 10px;
+    margin-top: 210px;
+    width: 100px;
+    text-align: center;
+    background-color: #FF5151;
+    border: solid 3px;
+    box-shadow: 0 0 10px rgba(255, 255, 255, .3);
+    border-radius: 10px;
+}
+
+.masuk a{
+    text-decoration: none;
+    color: black;
+}
+
+a{
+    color: black;
+}

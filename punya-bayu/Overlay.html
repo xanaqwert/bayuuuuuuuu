@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Nyawer</title>
+    <link rel="stylesheet" href="Overlay.css">
+</head>
+<body>
+    <a class="mdb" href="HomeP.html">
+    <div class="atas">
+        <div class="card">
+            <img src="asset gambar/Kucing mingkem.png" alt="Card Back">
+            <img src="asset gambar/Kucing Mangap.png" alt="" class="img-top">
+        </div>
+        <h1 class="h1-bayu">MintaDuitBang</h1>
+    </div>
+    </a>
+
+    <div class="alert">
+       Alert
+    </div>
+        <div class="alert-setting">
+            <h1>Alert</h1>
+            <div class="ALERT">
+                <h3>Aturan Alert:</h3>
+                <label for="rangeInput">Alert Notifikasi:</label>
+                <input type="range" id="rangeInput" min="0" max="100000" value="1000">
+                <output for="rangeInput" id="output">1000</output>
+            
+                <script>
+                    // Mendapatkan elemen input range dan output
+                    var rangeInput = document.getElementById('rangeInput');
+                    var output = document.getElementById('output');
+            
+                    // Memperbarui nilai output saat input range berubah
+                    rangeInput.addEventListener('input', function() {
+                        output.value = this.value;
+                    });
+                </script>
+            </div>
+                
+        </div>
+
+
+
+</body>
+</html>
